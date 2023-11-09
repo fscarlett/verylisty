@@ -1,0 +1,14 @@
+.footer {
+  padding: 10px 10px 60px;
+  color: #f2f2ff;
+  font-size: 15px;
+}
+
+.footer_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer_brand_wrapper {
+  padding: 30px 0;
+}

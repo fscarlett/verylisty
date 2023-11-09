@@ -5,6 +5,17 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  color: #fff;
+}
+
+.home_splash_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3rem;
+  min-height: 100vh;
+  color: #fff;
 }
 
 .description {
@@ -17,6 +28,11 @@
   z-index: 2;
   /* font-family: var(--font-mono); */
   font-family: Inter;
+
+  height: 90vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .description a {
