@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 // import { useRouter } from 'next/router'
 
-// import Header from './Header'
+import Header from '@/layouts/Header'
 import Footer from '@/layouts/Footer'
 // import styles from '@/styles/Layout.module.css'
 
@@ -50,7 +50,7 @@ export default function Layout({ title, keywords, description, children }) {
 
       <Script src='https://use.fontawesome.com/35c241630a.js'></Script>
 
-      {/* <Header /> */}
+      <Header />
 
       {children}
 

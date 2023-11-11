@@ -1,0 +1,18 @@
+.header {
+  padding: 10px 10px 60px;
+  color: #f2f2ff;
+  font-size: 15px;
+}
+
+.header_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header_brand_wrapper {
+  padding: 20px 20px;
+}
+
+.header_logo {
+  font-size: 30px;
+}
