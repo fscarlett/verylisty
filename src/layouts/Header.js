@@ -16,7 +16,13 @@ export default function Header() {
           verylisty
         </Link>
       </div>
-      <div className={styles.header_container}></div>
+      <div className={styles.header_nav_wrapper}>
+        <ul>
+          <li>stuff</li>
+          <li>stuff</li>
+          <li>stuff</li>
+        </ul>
+      </div>
     </header>
   )
 }

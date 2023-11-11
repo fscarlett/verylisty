@@ -11,7 +11,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.home_splash_wrapper}>
           <h1>Verylisty</h1>
-          <p>and it is... very listy...</p>
+          <p>sign up or log in</p>
         </div>
       </main>
     </>
