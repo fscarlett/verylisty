@@ -11,5 +11,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 70%;
+}
+
+.home_items_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+}
+
+.home_item {
+  padding: 50px;
+  margin: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #add;
 }

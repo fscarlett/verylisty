@@ -12,6 +12,11 @@ export default function Home() {
         <div className={styles.home_splash_wrapper}>
           <h1>Verylisty</h1>
           <p>sign up or log in</p>
+          <div className={styles.home_items_wrapper}>
+            <div className={styles.home_item}>hello VL item</div>
+            <div className={styles.home_item}>hello VL item</div>
+            <div className={styles.home_item}>hello VL item</div>
+          </div>
         </div>
       </main>
     </>
