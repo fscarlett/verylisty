@@ -3,8 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: calc(100vh - 60px);
-  color: #fff;
+  height: calc(100vh - 110px);
 }
 
 .home_splash_wrapper {
@@ -12,6 +11,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
   height: 50vh;
 }

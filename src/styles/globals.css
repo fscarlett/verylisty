@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  background-color: #000;
+}
+
 body {
   color: #222;
   background: linear-gradient(to bottom, #aaa, #eee);
