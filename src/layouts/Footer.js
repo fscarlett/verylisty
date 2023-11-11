@@ -17,7 +17,17 @@ export default function Footer() {
             verylisty
           </Link>
         </div>
-        <div className={styles.copyright}>Copyright ©2023 Fox Scarlett</div>
+        <div className={styles.copyright}>
+          Copyright ©2023{' '}
+          <Link
+            href='https://www.foxscarlett.com'
+            target='_blank'
+            noreferrer
+            nofollow
+          >
+            Fox Scarlett
+          </Link>
+        </div>
       </div>
     </footer>
   )
