@@ -17,9 +17,9 @@ export default function Home() {
             <Link href='/account/login'>Login</Link>
           </p>
           <div className={styles.home_items_wrapper}>
-            <div className={styles.home_item}>hello VL item</div>
-            <div className={styles.home_item}>hello VL item</div>
-            <div className={styles.home_item}>hello VL item</div>
+            <div className={styles.home_item}>less</div>
+            <div className={styles.home_item}>is</div>
+            <div className={styles.home_item}>more</div>
           </div>
         </div>
       </main>

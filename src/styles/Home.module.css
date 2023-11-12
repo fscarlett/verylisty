@@ -31,13 +31,33 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .home_item {
-  padding: 50px;
+  width: 10vw;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
   margin: 20px;
   border: 1px solid #000;
   border-radius: 10px;
   background-color: #add;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .home_items_wrapper {
+    flex-direction: column;
+    padding: 30px 10px;
+    /* height: 100vh; */
+  }
+
+  .home_item {
+    width: 60vw;
+    margin: 20px;
+  }
 }
