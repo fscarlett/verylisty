@@ -30,8 +30,8 @@ export default function Footer() {
           <Link
             href='https://www.foxscarlett.com'
             target='_blank'
-            noreferrer
-            nofollow
+            noreferrer='true'
+            nofollow='true'
           >
             Fox Scarlett
           </Link>
