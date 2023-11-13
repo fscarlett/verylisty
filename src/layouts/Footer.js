@@ -18,8 +18,11 @@ export default function Footer() {
           </Link>
         </div>
         <div className={styles.footer_nav_wrapper}>
-          <Link href='/privacy-policy' className={`${styles.footer_logo}`}>
+          <Link href='/privacy-policy' className={`${styles.footer_nav_item}`}>
             privacy policy
+          </Link>
+          <Link href='/tos' className={`${styles.footer_nav_item}`}>
+            terms
           </Link>
         </div>
         <div className={styles.copyright}>
