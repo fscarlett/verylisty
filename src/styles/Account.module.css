@@ -27,3 +27,11 @@
   border-radius: 10px;
   background-color: #add;
 }
+
+.privacy_policy_content_wrapper {
+  padding: 50px 0;
+}
+
+.privacy_policy_content_wrapper p {
+  margin-bottom: 20px;
+}

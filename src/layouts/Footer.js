@@ -17,6 +17,11 @@ export default function Footer() {
             verylisty
           </Link>
         </div>
+        <div className={styles.footer_nav_wrapper}>
+          <Link href='/privacy-policy' className={`${styles.footer_logo}`}>
+            privacy policy
+          </Link>
+        </div>
         <div className={styles.copyright}>
           Copyright ©2023{' '}
           <Link
