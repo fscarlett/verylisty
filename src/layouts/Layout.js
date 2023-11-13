@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Script from 'next/script'
 // import { useRouter } from 'next/router'
 
+import { Analytics } from '@vercel/analytics/react'
+
 import Header from '@/layouts/Header'
 import Footer from '@/layouts/Footer'
 // import styles from '@/styles/Layout.module.css'
@@ -55,6 +57,8 @@ export default function Layout({ title, keywords, description, children }) {
       {children}
 
       <Footer />
+
+      <Analytics />
     </div>
   )
 }
