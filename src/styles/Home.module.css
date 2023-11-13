@@ -21,8 +21,10 @@
 }
 
 .home_splash_wrapper a {
+  display: block;
   text-decoration: underline;
   font-size: 2rem;
+  padding: 20px;
 }
 
 .home_items_wrapper {

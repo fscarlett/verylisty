@@ -12,14 +12,13 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.home_splash_wrapper}>
           <h1>Verylisty</h1>
-          <p>
-            <Link href='/account/register'>Sign Up</Link> or {` `}
-            <Link href='/account/login'>Login</Link>
-          </p>
+          <Link href='/account/register'>Sign Up For Free</Link>
+          <p>or</p> {` `}
+          <Link href='/account/login'>Login</Link>
           <div className={styles.home_items_wrapper}>
-            <div className={styles.home_item}>less</div>
-            <div className={styles.home_item}>is</div>
-            <div className={styles.home_item}>more</div>
+            <div className={styles.home_item}>It&apos;s free</div>
+            <div className={styles.home_item}>It&apos;s focused</div>
+            <div className={styles.home_item}>It&apos;s deep</div>
           </div>
         </div>
       </main>

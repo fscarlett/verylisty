@@ -19,8 +19,6 @@ export default function Header() {
       <div className={styles.header_nav_wrapper}>
         <ul>
           <li>stuff</li>
-          <li>stuff</li>
-          <li>stuff</li>
         </ul>
       </div>
     </header>
