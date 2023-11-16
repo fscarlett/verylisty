@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <main className={`${styles.main} ${inter.className}`}>
-        {loggedIn ? <HomeSplash /> : <List />}
+        {loggedIn ? <List /> : <HomeSplash />}
       </main>
     </>
   )
