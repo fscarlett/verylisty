@@ -10,7 +10,9 @@ import List from '@/components/List'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  let loggedIn = false
+  let loggedIn
+  loggedIn = true
+  // loggedIn = false
   return (
     <>
       <main className={`${styles.main} ${inter.className}`}>
