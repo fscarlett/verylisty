@@ -10,7 +10,7 @@
 }
 
 .big_list_wrapper {
-  padding: 20px 20px;
+  padding: 0 20px 10px;
 }
 
 .list_item_wrapper {
@@ -19,4 +19,15 @@
 
 .list_item_wrapper h2 {
   font-size: 5rem;
+}
+
+.list_item_status_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list_item_status {
+  font-size: 1.8rem;
 }
