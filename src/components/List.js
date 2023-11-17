@@ -4,11 +4,12 @@ import styles from '@/styles/List.module.css'
 
 import ListItem from '@/components/ListItem'
 import MiniList from '@/components/MiniList'
+import LeftSide from '@/components/LeftSide'
 
 export default function List() {
   return (
     <div className={styles.mega_list_container}>
-      <div className={styles.left_side_wrapper}>hello left side thingz</div>
+      <LeftSide />
       <div className={styles.big_list_wrapper}>
         <ul>
           <ListItem />
