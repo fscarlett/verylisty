@@ -5,7 +5,13 @@ import styles from '@/styles/List.module.css'
 export default function ListItem() {
   return (
     <li className={styles.list_item_wrapper}>
-      <h2>List Item Title</h2>
+      <div className={styles.list_item_header}>
+        <h2>List Item Title</h2>
+        <span className={styles.list_item_header_icon}>
+          edit
+          {/* <Image src='/icons/arrow-right.svg' width={12} height={12} /> */}
+        </span>
+      </div>
       <p>List Item Details</p>
       <div className={styles.list_item_status_wrapper}>
         <span className={styles.list_item_status}>Level</span>

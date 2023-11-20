@@ -17,6 +17,19 @@
   margin-bottom: 50px;
 }
 
+.list_item_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list_item_header_icon {
+  position: relative;
+  top: -25px;
+  left: 5px;
+}
+
 .list_item_wrapper h2 {
   font-size: 5rem;
 }
