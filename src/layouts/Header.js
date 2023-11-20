@@ -18,6 +18,8 @@ export default function Header() {
       </div>
       <div className={styles.header_nav_wrapper}>
         <ul>
+          <li>newitem</li>
+          <li>newproject</li>
           <li>stuff</li>
         </ul>
       </div>
