@@ -44,3 +44,16 @@
 .list_item_status {
   font-size: 1.8rem;
 }
+
+.project_list_wrapper {
+  padding: 40px 5px;
+}
+
+.project_list_wrapper h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.project_list_item_wrapper {
+  margin-bottom: 10px;
+}

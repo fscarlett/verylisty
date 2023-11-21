@@ -7,6 +7,7 @@ import ProjectListItem from '@/components/ProjectListItem'
 export default function ProjectList() {
   return (
     <div className={styles.project_list_wrapper}>
+      <h2>Projects</h2>
       <ul>
         <ProjectListItem />
         <ProjectListItem />
