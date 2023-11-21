@@ -8,7 +8,7 @@ export default function LeftSide() {
   return (
     <div className={styles.left_side_wrapper}>
       <h2>Left Side</h2>
-      <div className={styles.left_side_wrapper}>left side content</div>
+      <div className={styles.left_side_content}>left side content</div>
       <ProjectList />
     </div>
   )
