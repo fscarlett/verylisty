@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '@/styles/List.module.css'
 
-export default function LeftSideContent() {
+export default function NoteToSelf() {
   return (
     <div className={styles.left_side_content_wrapper}>
       <h2>Note to self</h2>
