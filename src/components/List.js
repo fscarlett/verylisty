@@ -20,9 +20,7 @@ export default function List() {
         </ul>
       </div>
 
-      <div className={styles.mini_list_wrapper}>
-        <MiniList />
-      </div>
+      <MiniList />
     </div>
   )
 }

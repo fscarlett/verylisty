@@ -65,3 +65,15 @@
 .project_list_item_wrapper {
   margin-bottom: 10px;
 }
+
+.mini_list_wrapper {
+  padding: 40px 25px;
+  width: 100%;
+  max-width: 360px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.mini_list_item_wrapper {
+  margin-bottom: 10px;
+}
