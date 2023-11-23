@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: calc(100vh - 110px);
+  /* min-height: calc(100vh - 110px); */
 }
 
 .home_splash_wrapper {

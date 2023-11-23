@@ -6,7 +6,7 @@ export default function ListItem() {
   return (
     <li className={styles.list_item_wrapper}>
       <div className={styles.list_item_header}>
-        <h2>List Item Title</h2>
+        <h2>Nice Big Important List Item Title</h2>
         <span className={styles.list_item_header_icon}>
           edit
           {/* <Image src='/icons/arrow-right.svg' width={12} height={12} /> */}
