@@ -17,6 +17,7 @@
   min-width: 360px;
   border: 1px solid #222;
   border-radius: 10px;
+  background-image: linear-gradient(to right bottom, #bdf, #ccddff);
 }
 
 .list_item_wrapper {
@@ -72,6 +73,7 @@
   max-width: 360px;
   border: 1px solid #000;
   border-radius: 10px;
+  background-image: linear-gradient(to right bottom, #bdf, #ccddff);
 }
 
 .note_to_self_content {
@@ -84,6 +86,7 @@
   max-width: 360px;
   border: 1px solid #000;
   border-radius: 10px;
+  background-image: linear-gradient(to right bottom, #bdf, #ccddff);
 }
 
 .project_list_wrapper h2 {
@@ -101,6 +104,7 @@
   max-width: 360px;
   border: 1px solid #000;
   border-radius: 10px;
+  background-image: linear-gradient(to right bottom, #bdf, #ccddff);
 }
 
 .mini_list_item_wrapper {

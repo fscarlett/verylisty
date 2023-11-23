@@ -20,7 +20,7 @@ export default function Header() {
         <ul>
           <li>newitem</li>
           <li>newproject</li>
-          <li>stuff</li>
+          <li>settings</li>
         </ul>
       </div>
     </header>
