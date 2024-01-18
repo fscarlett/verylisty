@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
             <p>Ready?</p>
 
             <p>
-              We use a cookie to let your browser know if you&apos;re logged in.
+              We use a cookie to let the app know if you&apos;re logged in.
               That&apos;s it.
             </p>
 
