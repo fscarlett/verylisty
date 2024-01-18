@@ -15,9 +15,12 @@
   /* width: 100%; */
   max-width: 800px;
   min-width: 360px;
-  border: 1px solid #222;
+  border: 1px solid #c44934;
   border-radius: 10px;
-  background-image: linear-gradient(to right bottom, #bdf, #ccddff);
+  /* background-image: linear-gradient(to right bottom, #bdf, #ccddff); */
+  /* background-image: linear-gradient(to right bottom, #dbfdff, #dbfdff); */
+  /* background-image: linear-gradient(to right bottom, #ffaeb9, #e7addf); */
+  background-image: linear-gradient(to right bottom, #ffced9, #e7cdff);
 }
 
 .list_item_wrapper {
@@ -71,9 +74,10 @@
   padding: 20px 15px;
   width: 100%;
   max-width: 360px;
-  border: 1px solid #000;
+  border: 1px solid #c44934;
   border-radius: 10px;
-  background-image: linear-gradient(to right bottom, #bdf, #ccddff);
+  /* background-image: linear-gradient(to right bottom, #bdf, #ccddff); */
+  background-image: linear-gradient(to right bottom, #ffaeb9, #e7addf);
 }
 
 .note_to_self_content {
@@ -84,9 +88,9 @@
   padding: 20px 15px;
   width: 100%;
   max-width: 360px;
-  border: 1px solid #000;
+  border: 1px solid #c44934;
   border-radius: 10px;
-  background-image: linear-gradient(to right bottom, #bdf, #ccddff);
+  background-image: linear-gradient(to right bottom, #ffbeb9, #f9f4d2);
 }
 
 .project_list_wrapper h2 {
@@ -102,9 +106,9 @@
   padding: 40px 25px;
   width: 100%;
   max-width: 360px;
-  border: 1px solid #000;
+  border: 1px solid #c44934;
   border-radius: 10px;
-  background-image: linear-gradient(to right bottom, #bdf, #ccddff);
+  background-image: linear-gradient(to right bottom, #ffbeb9, #f9f4d2);
 }
 
 .mini_list_item_wrapper {

@@ -16,8 +16,11 @@ html {
 }
 
 body {
-  color: #222;
-  background: linear-gradient(to bottom, #ace, #afcfef);
+  /* color: #222; */
+  color: #4d434c;
+  /* background: linear-gradient(to bottom, #ace, #afcfef); */
+  /* background: linear-gradient(to bottom, #9be7f8, #ccddff); */
+  background: linear-gradient(to bottom, #cbe7f8, #ccddff);
 
   /* color: #f2f2ff; */
   font-family: 'Inter', san-serif;
